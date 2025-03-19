@@ -1,0 +1,75 @@
+# Python字节码
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Python包分发文件
+dist/
+build/
+*.egg-info/
+eggs/
+*.egg
+
+# 单元测试和覆盖率
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# 日志
+*.log
+local_settings.py
+logs/
+
+# IDE相关
+.idea/
+.vscode/
+*.swp
+*.swo
+.spyderproject
+.spyproject
+.ropeproject
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+
+# 项目特定文件
+*.pdf
+*.md
+!README.md
+temp/
+temp_files/
+output/
+
+# 环境变量和配置文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# uv特定文件
+.uv/
+uv.lock
+
+# 其他
+*.tmp
+*.bak
+*.pid 

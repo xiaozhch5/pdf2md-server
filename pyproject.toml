@@ -1,0 +1,23 @@
+[project]
+name = "pdf2md-server"
+version = "0.1.0"
+description = "API服务，使用marker将PDF转换为Markdown"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "requests",
+    "python-multipart",
+    "marker-pdf[all]",
+    "cos-python-sdk-v5",
+    "python-dotenv"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort"
+]
